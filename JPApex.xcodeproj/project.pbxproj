@@ -11,6 +11,11 @@
 		5F3856652AE9D2A7002AD2F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3856642AE9D2A7002AD2F7 /* ContentView.swift */; };
 		5F3856672AE9D2A9002AD2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3856662AE9D2A9002AD2F7 /* Assets.xcassets */; };
 		5F38566A2AE9D2A9002AD2F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3856692AE9D2A9002AD2F7 /* Preview Assets.xcassets */; };
+		5F3856712AE9D488002AD2F7 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F3856702AE9D488002AD2F7 /* jpapexpredators.json */; };
+		5F3856732AE9D515002AD2F7 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3856722AE9D515002AD2F7 /* ApexPredator.swift */; };
+		5F3856752AE9D6EA002AD2F7 /* PredatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3856742AE9D6EA002AD2F7 /* PredatorController.swift */; };
+		5F3856772AEA23A8002AD2F7 /* PredatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3856762AEA23A8002AD2F7 /* PredatorRow.swift */; };
+		5F3856792AEA2F16002AD2F7 /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3856782AEA2F16002AD2F7 /* PredatorDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		5F3856642AE9D2A7002AD2F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F3856662AE9D2A9002AD2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F3856692AE9D2A9002AD2F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F3856702AE9D488002AD2F7 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		5F3856722AE9D515002AD2F7 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
+		5F3856742AE9D6EA002AD2F7 /* PredatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorController.swift; sourceTree = "<group>"; };
+		5F3856762AEA23A8002AD2F7 /* PredatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorRow.swift; sourceTree = "<group>"; };
+		5F3856782AEA2F16002AD2F7 /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				5F3856622AE9D2A7002AD2F7 /* JPApexApp.swift */,
+				5F3856722AE9D515002AD2F7 /* ApexPredator.swift */,
+				5F3856742AE9D6EA002AD2F7 /* PredatorController.swift */,
 				5F3856642AE9D2A7002AD2F7 /* ContentView.swift */,
+				5F3856762AEA23A8002AD2F7 /* PredatorRow.swift */,
+				5F3856782AEA2F16002AD2F7 /* PredatorDetail.swift */,
+				5F3856702AE9D488002AD2F7 /* jpapexpredators.json */,
 				5F3856662AE9D2A9002AD2F7 /* Assets.xcassets */,
 				5F3856682AE9D2A9002AD2F7 /* Preview Content */,
 			);
@@ -127,6 +142,7 @@
 			files = (
 				5F38566A2AE9D2A9002AD2F7 /* Preview Assets.xcassets in Resources */,
 				5F3856672AE9D2A9002AD2F7 /* Assets.xcassets in Resources */,
+				5F3856712AE9D488002AD2F7 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3856752AE9D6EA002AD2F7 /* PredatorController.swift in Sources */,
+				5F3856732AE9D515002AD2F7 /* ApexPredator.swift in Sources */,
 				5F3856652AE9D2A7002AD2F7 /* ContentView.swift in Sources */,
+				5F3856792AEA2F16002AD2F7 /* PredatorDetail.swift in Sources */,
 				5F3856632AE9D2A7002AD2F7 /* JPApexApp.swift in Sources */,
+				5F3856772AEA23A8002AD2F7 /* PredatorRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
